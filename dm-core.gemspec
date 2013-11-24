@@ -17,10 +17,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = [ "lib" ]
   gem.version       = DataMapper::VERSION
 
-  gem.add_runtime_dependency('addressable', '~> 2.2.6')
+  gem.add_runtime_dependency('addressable', '~> 2.3.5')
   gem.add_runtime_dependency('coercible', '~> 0.2.0')
 
   gem.add_development_dependency('rake',  '~> 0.9.2')
-
   gem.add_development_dependency('rspec', '~> 1.3.2')
 end
